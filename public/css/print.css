@@ -1,0 +1,10 @@
+@page {
+  size: A4; }
+@media print {
+  a[href]:after {
+    content: none !important; }
+
+  .dataTables_length, .dataTables_filter, .dataTables_paginate, .dataTables_info {
+    display: none !important; } }
+
+/*# sourceMappingURL=print.css.map */
